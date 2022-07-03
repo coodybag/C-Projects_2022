@@ -5,6 +5,7 @@
 int main()
 {
     int number, guess, nGuesses = 1;
+    // Random number generator
     srand(time(0));
     number = rand() % 100 + 1;
 
